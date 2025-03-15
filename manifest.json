@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Tab Time Tracker",
+  "name": "TuLong",
   "version": "1.4.2",
   "description": "Tracks time spent on each tab and saves it daily.",
   "permissions": ["tabs", "storage"],
