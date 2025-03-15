@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tab Time Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select, input[type="date"] {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tab Time Tracker</h1>
+    <label for="start-date-picker">Start Date:</label>
+    <input type="date" id="start-date-picker" value="">
+    <label for="end-date-picker">End Date:</label>
+    <input type="date" id="end-date-picker" value="">
+    <label for="sort">Sort by:</label>
+    <select id="sort">
+        <option value="most-to-least">Most to Least Time</option>
+        <option value="alphabetical">Alphabetical</option>
+    </select>
+    <ul id="time-list"></ul>
+    <script src="popup.js"></script>
+</body>
+</html>
